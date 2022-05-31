@@ -16,7 +16,6 @@ while len(primes)<10000:
         primes= primes+str(possiblePrime)
         possiblePrime += 1
 
-#print(primes)
 
 def solution(i):
     try:
@@ -26,7 +25,6 @@ def solution(i):
     except ValueError:
         print("That's not an int!")
     
-
-
+    
 solution(5000)
 print(len(primes))

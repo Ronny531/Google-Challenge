@@ -1,11 +1,8 @@
 from itertools import combinations
 from itertools import permutations
 
-
 listofnum = [3,1,4,1,5,9]
 listofnum = set(listofnum)
-
-
 
 
 def solution(L):
@@ -50,8 +47,6 @@ def solution(L):
         else:
             continue
     return highestnum
-
-
 
 L = [3, 1, 4, 1]
 
